@@ -1,8 +1,15 @@
 article{
-    text-align: center;background-color: pink;
-    border: 3px double orange;
+    text-align: center;
+    background-image: linear-gradient(to right bottom, pink, yellow, pink);
+}
+article:hover{
+    background-image: linear-gradient(to left bottom, yellow, pink, yellow);
+    transition: all 3s linear;
 }
 footer{
-    background-color: pink;
+    background-image: linear-gradient(to left bottom, yellow, pink, yellow);
     border: 3px solid orange;
+}
+body{
+    text-align: center;
 }
