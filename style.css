@@ -1,38 +1,161 @@
-article{
-    margin: 35px;
-    padding: 40px 40px 100px 40px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    width: 550px;
-    border: 10px ridge orange;
+body {
+    font-family: sans-serif;
     background-image: linear-gradient(to right bottom, pink, yellow, pink);
+    text-align: center;
+    color: black;
+}
+
+.left{
+    background-image: linear-gradient(to right bottom, yellow, white, yellow);
+    color: black;
+    width: 285px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+header {
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: left;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    width: 120px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: 0px auto 0px auto;
+    max-width: 1100px;
+}
+
+article {
+    background-color: white;
+    padding: 15px;
+    width: 400px;
+    margin: 15px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #071C71;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+.article-but:hover{
+    color: black;
+    background-color: white;
+}
+
+footer {
+    background-color: white;
+    padding: 15px;
+}
+
+footer a {
+    margin-right: 5px;
+}
+
+footer p {
+    font-size: 24px;
 }
 
 .info{
     display: flex;
 }
 
-article:hover{
-    background-image: linear-gradient(to left bottom, yellow, pink, yellow);
-    transition: all 10s linear;
-}
 footer{
-    background-image: linear-gradient(to left bottom, yellow, pink, yellow);
-    border: 3px solid orange;
-}
-body{
-    text-align: center;
-    background-image: linear-gradient(to right, orange, white, yellow);
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-image: linear-gradient(to left bottom, pink, yellow, pink);
+    border: 10px double white;
+    border-radius: 20px;
+    width: 400px;
+    
 }
 
-h2{
-    text-align: left;
-    background-image: linear-gradient(to left top, purple, pink, purple);
-    width: 120px;
+nav{
+    display: flex;
+}
+
+article{
+    margin: 35px;
+    background-image: linear-gradient(to right bottom, pink, white, pink);
+    padding: 40px 40px 100px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-radius: 15px;
-    padding: 5px;
+}
+a{
+    display: block;
+    width: 80px;
+}
+
+img{
+    width: 100%;
+    min-height: 270px;
+}
+
+.inline{
+    display: flex;
+    width: 500px;
+    justify-content: center;
+}
+.inline img{
+    width: 20%;
+    opacity: 0.2;
+}
+.inline img:hover{
+    width: 50%;
+    height: 50%;
+    margin: 20px;
+    border: 3px solid white;
+    opacity: 1;
+}
+div p{
+    margin: 20px;
+    background-color: #162EAE;
+    border: 10px double white;
+    border-radius: 20px;
 }
