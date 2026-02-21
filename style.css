@@ -28,6 +28,7 @@ header {
 .inline img{
     width: 450px;
     height: 700px;
+    border-radius: 25px;
 }
 .inline p{
     width: 700px;
